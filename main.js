@@ -13,16 +13,16 @@ for (const link of links){
 }
 
 /* Mudar o header da página quando der scroll */
-const header = document.querySelector('#header')
-const navHeight = header.offsetHeight  /*estou pegando a altura do header */
+function changeHeaderWhenScroll(){
+  const header = document.querySelector('#header')
+  const navHeight = header.offsetHeight  /*estou pegando a altura do header */
 
-window.addEventListener('scroll', () => {
   if (window.scrollY >= navHeight) {
     header.classList.add('scroll')
   } else {
     header.classList.remove('scroll')
   }
-})
+}
 
 /*Testimonials carosel slides swiper */
 const swiper = new Swiper('.swiper', {
@@ -51,3 +51,20 @@ scrollReveal.reveal(
   `,
   { interval: 100}  
 )
+
+/* Botão voltar para o topo*/
+
+function backToTop() {
+  const backToTopButton = document.querySelector('.back-to-top')
+
+  if(window.scrollY >= 560) {
+    backToTopButton.classList.add('show')
+  } else {
+    backToTopButton.classList.remove('show')
+  }
+}
+
+window.addEventListener('scroll', () => {
+  changeHeaderWhenScroll()
+  backToTop()
+})
