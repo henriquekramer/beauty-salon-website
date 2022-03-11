@@ -508,7 +508,7 @@ footer .social a:hover {
 }
 
 /* RESPONSIVIDADE */
-@media (min-width: 1200px){
+@media (min-width: 850px){
   /* reusable classes*/
   .container{
     max-width: 1120px;
