@@ -7,7 +7,7 @@ https://henriquekramer.github.io/beauty-salon-website/
 
 ## 💻 Projeto
 
-O beautysalon. foi um projeto desenvolvido na NLW06-Origin da RocketSeat. A landingpage é feita para um salão de beleza, entretanto pode ser adequado para qualquer segmento. 
+O beautysalon. foi um projeto desenvolvido na NLW06-Origin da RocketSeat. É uma página institucional no formato One Page para um salão de beleza, entretanto pode ser adequado para qualquer segmento. 
 Projeto desenvolvido mobile-first. Botões de agendamento via Whatsapp, botão de retorno para o topo da página, menu para mobile.
 
 ## 🚀 Tecnologias
@@ -17,6 +17,17 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML
 - CSS
 - JavaScript
+
+Bibliotecas
+
+- [Google Fonts](https://fonts.google.com/)
+- [SwipeJS](https://github.com/nolimits4web/Swiper)
+- [ScrollRevel](https://scrollrevealjs.org)
+
+Utilitários
+
+- [randomuser.me](https://randomuser.me/photos)
+- [IconMoon](https://icomoon.io/app/#/select)
 
 <h1>Desktop</h1>
 <p align="center">
