@@ -365,6 +365,8 @@ nav.show div.icon-close{
 #testimonials .container {
   margin-left: 0;
   margin-right: 0;
+  position: relative;
+  overflow: hidden;
 }
 
 #testimonials header{
@@ -566,7 +568,6 @@ footer .social a:hover {
   #home .container {
     grid-auto-flow: column;
     justify-content: space-between;
-    width: fit-content;
     margin: 0 auto;
   }
 
